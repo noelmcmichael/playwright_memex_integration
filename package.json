@@ -1,0 +1,24 @@
+{
+  "name": "playwright_memex_integration",
+  "version": "1.0.0",
+  "description": "This project integrates Playwright with Memex to capture console logs from web pages for quick debugging.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noelmcmichael/playwright_memex_integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/noelmcmichael/playwright_memex_integration/issues"
+  },
+  "homepage": "https://github.com/noelmcmichael/playwright_memex_integration#readme",
+  "dependencies": {
+    "playwright": "^1.53.2"
+  }
+}

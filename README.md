@@ -4,8 +4,25 @@ This project integrates Playwright with Memex to capture console logs from web p
 
 ## Progress
 
-- [ ] Project Setup
-- [ ] Environment Check
-- [ ] Create Playwright Script
-- [ ] Demonstrate Usage
+- [x] Project Setup
+- [x] Environment Check
+- [x] Create Playwright Script
+- [x] Demonstrate Usage
 - [ ] Documentation
+
+## Usage
+
+To capture console logs from a web page, run the `capture-logs.js` script with the target URL as an argument:
+
+```bash
+node scripts/capture-logs.js <URL>
+```
+
+For example:
+
+```bash
+node scripts/capture-logs.js https://www.example.com
+```
+
+The script will output a JSON array of console messages captured from the page.
+
